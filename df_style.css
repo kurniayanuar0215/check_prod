@@ -1,0 +1,28 @@
+/* includes alternating gray and white with on-hover color */
+
+.mystyle {
+  font-size: 11pt;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  border: 1px solid silver;
+}
+
+.mystyle td,
+th {
+  padding: 5px;
+  text-align: center;
+}
+.mystyle td,
+tr {
+  padding: 5px;
+  text-align: right;
+}
+
+.mystyle tr:nth-child(even) {
+  background: #bbd8e6;
+}
+
+.mystyle tr:hover {
+  background: rgb(135, 162, 219);
+  cursor: pointer;
+}
